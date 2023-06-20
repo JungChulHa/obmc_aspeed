@@ -1,0 +1,1 @@
+mrw-api-native-1.0: mrw-api-native: native/nativesdk class is not inherited last, this can result in unexpected behaviour. Classes inherited after native/nativesdk: mrw-rev.bbclass perl-version.bbclass cpan-base.bbclass perlnative.bbclass [native-last]
