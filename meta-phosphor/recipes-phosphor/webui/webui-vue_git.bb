@@ -45,3 +45,5 @@ do_install () {
    find ${D}${datadir}/www -type d -exec chmod a=rx,u+w '{}' +
 }
 
+SRC_URI += "file://0001-modify-innowell-logo.patch"
+
