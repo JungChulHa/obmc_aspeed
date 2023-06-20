@@ -1,0 +1,25 @@
+From b726be6e3d358600b69fc7463fca16bf62f699b8 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E2=80=9CJungChulHa=E2=80=9D?= <“acejcha@gmail.com”>
+Date: Tue, 20 Jun 2023 13:33:43 +0900
+Subject: [PATCH] modify model name
+
+---
+ arch/arm/dts/ast2600-evb.dts | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/arch/arm/dts/ast2600-evb.dts b/arch/arm/dts/ast2600-evb.dts
+index ec24fe23c7..9061ae1f7d 100644
+--- a/arch/arm/dts/ast2600-evb.dts
++++ b/arch/arm/dts/ast2600-evb.dts
+@@ -3,7 +3,7 @@
+ #include "ast2600-u-boot.dtsi"
+ 
+ / {
+-        model = "AST2600 EVB";
++        model = "AST2600 ACEJCHA";
+         compatible = "aspeed,ast2600-evb", "aspeed,ast2600";
+ 
+ 	memory {
+-- 
+2.25.1
+
