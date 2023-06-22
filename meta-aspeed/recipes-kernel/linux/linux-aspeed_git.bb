@@ -3,4 +3,6 @@ LINUX_VERSION ?= "5.10.30"
 
 SRCREV="d538d632fb2046278ff3457994d64d43ee2901c7"
 
+SRC_URI += "file://0001-uart-port12-enable.patch"
+
 require linux-aspeed.inc

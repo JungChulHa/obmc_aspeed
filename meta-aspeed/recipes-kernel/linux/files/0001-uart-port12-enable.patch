@@ -1,0 +1,31 @@
+From cbb0a297112afe3cdd188be79f2ad0579a35b96d Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E2=80=9CJungChulHa=E2=80=9D?= <“acejcha@gmail.com”>
+Date: Thu, 22 Jun 2023 16:48:18 +0900
+Subject: [PATCH] uart port12 enable
+
+---
+ arch/arm/boot/dts/aspeed-ast2600-evb.dts | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/arch/arm/boot/dts/aspeed-ast2600-evb.dts b/arch/arm/boot/dts/aspeed-ast2600-evb.dts
+index 5149b2c27a80..2e0d133c0c4d 100644
+--- a/arch/arm/boot/dts/aspeed-ast2600-evb.dts
++++ b/arch/arm/boot/dts/aspeed-ast2600-evb.dts
+@@ -229,6 +229,14 @@
+ 	status = "okay";
+ };
+ 
++&uart1 {
++	status = "okay";
++};
++
++&uart2 {
++	status = "okay";
++};
++
+ &adc0 {
+ 	ref_voltage = <2500>;
+ 	status = "okay";
+-- 
+2.25.1
+
